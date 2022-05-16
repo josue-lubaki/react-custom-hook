@@ -27,6 +27,7 @@ function App() {
 		);
 	}, [fetchTasks]);
 
+	// update UI with the new task
 	const taskAddHandler = (task) => {
 		setTasks((prevTasks) => prevTasks.concat(task));
 	};
